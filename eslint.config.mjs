@@ -16,6 +16,7 @@ export default tseslint.config(
     },
     rules: {
       'prettier/prettier': 'error',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
     },
   },
   {
